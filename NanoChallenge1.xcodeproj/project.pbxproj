@@ -14,6 +14,9 @@
 		4A1B4932281B79E600D9D4FC /* NanoChallenge1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B4931281B79E600D9D4FC /* NanoChallenge1Tests.swift */; };
 		4A1B493C281B79E600D9D4FC /* NanoChallenge1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B493B281B79E600D9D4FC /* NanoChallenge1UITests.swift */; };
 		4A1B493E281B79E600D9D4FC /* NanoChallenge1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B493D281B79E600D9D4FC /* NanoChallenge1UITestsLaunchTests.swift */; };
+		4A1B494C281B7A9400D9D4FC /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B494B281B7A9400D9D4FC /* WorkoutViewModel.swift */; };
+		4A1B494F281B7ABA00D9D4FC /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B494E281B7ABA00D9D4FC /* Workout.swift */; };
+		4A1B4951281B7B0000D9D4FC /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B4950281B7B0000D9D4FC /* WorkoutDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		4A1B4937281B79E600D9D4FC /* NanoChallenge1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoChallenge1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1B493B281B79E600D9D4FC /* NanoChallenge1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallenge1UITests.swift; sourceTree = "<group>"; };
 		4A1B493D281B79E600D9D4FC /* NanoChallenge1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallenge1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A1B494B281B7A9400D9D4FC /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		4A1B494E281B7ABA00D9D4FC /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		4A1B4950281B7B0000D9D4FC /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,13 @@
 		4A1B491F281B79E400D9D4FC /* NanoChallenge1 */ = {
 			isa = PBXGroup;
 			children = (
+				4A1B494D281B7AA500D9D4FC /* Model */,
+				4A1B494A281B7A7100D9D4FC /* ViewModel */,
 				4A1B4920281B79E400D9D4FC /* NanoChallenge1App.swift */,
 				4A1B4922281B79E400D9D4FC /* ContentView.swift */,
 				4A1B4924281B79E600D9D4FC /* Assets.xcassets */,
 				4A1B4926281B79E600D9D4FC /* Preview Content */,
+				4A1B4950281B7B0000D9D4FC /* WorkoutDetailView.swift */,
 			);
 			path = NanoChallenge1;
 			sourceTree = "<group>";
@@ -125,6 +134,22 @@
 				4A1B493D281B79E600D9D4FC /* NanoChallenge1UITestsLaunchTests.swift */,
 			);
 			path = NanoChallenge1UITests;
+			sourceTree = "<group>";
+		};
+		4A1B494A281B7A7100D9D4FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A1B494B281B7A9400D9D4FC /* WorkoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A1B494D281B7AA500D9D4FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A1B494E281B7ABA00D9D4FC /* Workout.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A1B4923281B79E400D9D4FC /* ContentView.swift in Sources */,
+				4A1B4951281B7B0000D9D4FC /* WorkoutDetailView.swift in Sources */,
+				4A1B494C281B7A9400D9D4FC /* WorkoutViewModel.swift in Sources */,
 				4A1B4921281B79E400D9D4FC /* NanoChallenge1App.swift in Sources */,
+				4A1B494F281B7ABA00D9D4FC /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
